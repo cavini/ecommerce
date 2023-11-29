@@ -1,10 +1,7 @@
-<<<<<<< Updated upstream
-=======
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { ArrowDownToLineIcon, CheckCircle, Leaf } from "lucide-react";
 import Link from "next/link";
->>>>>>> Stashed changes
 
 const perks = [
   {
@@ -29,10 +26,6 @@ const perks = [
 
 export default function Home() {
   return (
-<<<<<<< Updated upstream
-    <p>Hello World</p>
-  )
-=======
     <>
       <MaxWidthWrapper>
         <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
@@ -82,5 +75,4 @@ export default function Home() {
       </section>
     </>
   );
->>>>>>> Stashed changes
 }

@@ -3,8 +3,8 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
 import { Icons } from "./Icons";
 import NavItems from "./NavItems";
-import { cn } from "@/lib/utils";
 import { buttonVariants } from "./ui/button";
+import Cart from "./Cart";
 
 const Navbar = () => {
   const user = null;
@@ -63,7 +63,7 @@ const Navbar = () => {
                     </div>
                   )}
 
-                  <div className="ml-4 flw-root lg:ml-6">
+                  <div className="ml-4 flow-root lg:ml-6">
                     <Cart />
                   </div>
                 </div>

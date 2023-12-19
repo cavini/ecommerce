@@ -79,7 +79,10 @@ const ImageSlider = ({ urls }: ImageSliderProps) => {
         className="h-full w-full"
       >
         {urls.map((url, i) => (
-          <SwiperSlide key={i} className="-z-10 relative h-full w-full">
+          <SwiperSlide
+            key={`product-${i}`}
+            className="-z-10 relative h-full w-full"
+          >
             <Image
               src={url}
               alt="Product image"
